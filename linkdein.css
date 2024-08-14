@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://img.freepik.com/free-vector/black-geometric-memphis-social-banner_53876-116843.jpg?t=st=1723618519~exp=1723622119~hmac=32e43d3fa86b6d94a49fbaef5d0272cc98e7f9ef5e141f46ba39ee3f319e6c44&w=740'); /* Direct image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.linkedin-icon {
+    text-decoration: none;
+}
+
+.linkedin-logo {
+    width: 120px;
+    height: 120px;
+    background-color: #0077B5; /* LinkedIn's brand color */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    animation: pulse 3s infinite;
+}
+
+/* Hover Effect */
+.linkedin-icon:hover .linkedin-logo {
+    transform: scale(1.1);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Keyframe Animation */
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+.linkedin-svg {
+    fill: white;
+    width: 60px; /* Adjust the size of the LinkedIn icon */
+    height: 60px;
+}
+
+.h2{
+    background-color: red;
+      color: yellow;
+      font-family: Arial, sans-serif;
+      font-size: 20px;
+      line-height: 1.5;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      /* align-items: center; */
+      position: relative;
+      padding: 10px;
+       border-radius: 5px;
+      margin-top: 10px;
+  }
+  .h2:hover{
+      background-color: #3b85f57d;
+      cursor: pointer;
+  
+  }
+  

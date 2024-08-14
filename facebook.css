@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://img.freepik.com/free-vector/black-geometric-memphis-social-banner_53876-116843.jpg?t=st=1723618519~exp=1723622119~hmac=32e43d3fa86b6d94a49fbaef5d0272cc98e7f9ef5e141f46ba39ee3f319e6c44&w=740'); /* Direct image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.facebook-icon {
+    text-decoration: none;
+}
+
+.facebook-logo {
+    width: 120px;  /* Increased width */
+    height: 120px; /* Increased height */
+    background-color: #1877F2;
+    border-radius: 20px; /* Increased border-radius for larger size */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2); /* Adjusted shadow */
+    transition: all 0.3s ease;
+}
+
+.facebook-logo span {
+    font-size: 72px;  /* Increased font size */
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+   display: inline-block;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+    transition: transform 0.3s ease;
+}
+
+.facebook-icon:hover .facebook-logo {
+    background-color: #145dbb;
+    transform: scale(1.1);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3); /* Adjusted hover shadow */
+}
+
+.facebook-icon:hover .facebook-logo span {
+    transform: rotate(-10deg);
+}
+
+.h2{
+  background-color: yellow;
+    color: #ff0000;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+    padding: 10px;
+     border-radius: 5px;
+    margin-top: 10px;
+}
+.h2:hover{
+    background-color: #0066ff;
+    color: black;
+    cursor: pointer;
+
+
+}
